@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/moiz4rt/medcards-app#readme",
   "dependencies": {
+    "body-parser": "^1.20.3",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "mongoose": "^8.9.3"
+    "mongoose": "^8.9.3",
+    "nodemon": "^3.1.9"
   }
 }
