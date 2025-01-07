@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flashcards</title>
+</head>
+<body>
+    <h1>Flashcards</h1>
+    <ul>
+    <% flashcards.forEach(flashcard => { %>
+    <li><%= flashcard.question %>: <%= flashcard.answer %>
+        <button onclick="deleteFlashcard('<%= flashcard._id %>')">Delete</button>
+    </li>
+    <% }) %>
+    </ul>
+    <script src="/js/flashcard.js"></script>
+</body>
+</html>
